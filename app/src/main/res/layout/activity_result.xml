@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/ic_bg"
+    android:gravity="center_horizontal"
+    android:orientation="vertical"
+    android:padding="20dp"
+    tools:context=".ResultActivity">
+    <TextView
+        android:id="@+id/tv_laugh"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@color/white"
+        android:text=":)"
+        android:textSize="30dp"
+        android:rotation="90"
+        android:layout_marginTop="30dp"
+        android:textStyle="bold"/>
+<TextView
+    android:id="@+id/tv_result"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:textColor="@color/white"
+    android:text="{ NATIJA }"
+    android:layout_marginBottom="15dp"
+    android:textSize="28dp"
+    android:textStyle="bold"
+    android:fontFamily="sans-serif-medium"/>
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="20dp"
+        android:layout_marginEnd="20dp"
+        android:background="@color/white"
+        app:cardCornerRadius="8dp"
+        app:cardElevation="5dp"
+        >
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="16dp"
+        >
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:layout_gravity="center_horizontal"
+            android:textSize="15sp"
+            android:textColor="@color/gold"
+            android:fontFamily="sans-serif-smallcaps"
+            android:text="siz qatnashgan test natijasi :)"/>
+        <ImageView
+            android:id="@+id/iv_trophy"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:contentDescription="image"
+            android:src="@drawable/ic_trophy"/>
+        <TextView
+        android:id="@+id/tv_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="3dp"
+        android:textSize="22sp"
+        android:textColor="@color/gold"
+            android:fontFamily="sans-serif-condensed-medium"
+        android:textStyle="bold"
+        android:text=". : : Username : : ."
+        android:layout_gravity="center_horizontal"/>
+    <TextView
+        android:id="@+id/tv_score"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:gravity="center"
+        android:fontFamily="sans-serif-condensed"
+        android:textColor="@color/cardview_dark_background"
+        android:text="Siz 5 ta savoldan 5 tasiga javob berdingiz!"
+        android:textSize="15dp"/>
+    <Button
+        android:id="@+id/btn_finish"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@android:color/white"
+        android:layout_marginTop="10dp"
+        android:text=" Yana sinab ko'rish "
+        android:textStyle="bold"
+        android:textSize="18sp"/>
+    </LinearLayout>
+    </androidx.cardview.widget.CardView>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="9dp"
+        android:fontFamily="sans-serif-smallcaps"
+        android:gravity="center"
+        android:text="\n\nIlova versiyasi: v0.1\nMuallif: Abbosbek\nAloqa uchun telegram: @Seniorde"
+        android:textColor="#ddd"
+        android:textSize="15dp" />
+</LinearLayout>
