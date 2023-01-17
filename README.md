@@ -11,9 +11,12 @@ Simple quiz app for beginners (Kotlin)
 </thead>
 <tbody>
 <tr>
-<td><img src="//abbouse.github.io/Quiz/screenshots/1.jpg"></td>
-<td>test</td>
-<td>test</td>
+<td><img src="https://raw.githubusercontent.com/abbouse/Quiz/master/screenshots/1.jpg"></td>
+<td><img src="https://raw.githubusercontent.com/abbouse/Quiz/master/screenshots/2.jpg"></td>
+</tr>
+  <tr>
+<td><img src="https://raw.githubusercontent.com/abbouse/Quiz/master/screenshots/1.jpg"></td>
+<td><img src="https://raw.githubusercontent.com/abbouse/Quiz/master/screenshots/2.jpg"></td>
 </tr>
 </tbody>
 </table>
