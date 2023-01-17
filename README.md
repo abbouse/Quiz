@@ -26,3 +26,6 @@ Ilova shunchaki o'rganish vaqtida qilingan!
 </tr>
 </tbody>
 </table>
+
+#Yuklab olish
+<a href="https://raw.githubusercontent.com/abbouse/Quiz/master/screenshots/quiz_app.apk"><b>Yuklab olsih [APK]</b></a>
